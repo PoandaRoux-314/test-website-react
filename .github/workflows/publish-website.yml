@@ -18,6 +18,8 @@ jobs:
       with:
         node-version: 18.x
         cache: 'yarn'
+    - name: Install Depedencies
+      run: yarn
     - name: Build Website
       run: yarn build
     - name: Deploy
