@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "homepage": "https://PoandaRoux-314.github.io/test-website-react/",
+  "homepage": "https://poandaroux-314.github.io/test-website-react/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
