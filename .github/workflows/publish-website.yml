@@ -18,3 +18,9 @@ jobs:
       with:
         node-version: 18.x
         cache: 'yarn'
+    - name: Build Website
+      run: yarn build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist
